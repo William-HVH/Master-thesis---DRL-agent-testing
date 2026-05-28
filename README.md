@@ -5,6 +5,6 @@ It then presents 3 experiments:
 2) Selected policies are tested with SHAP to extract feature importance and test policy/SHAP robustness
 3) A decision tree regressor is trained on the policies, included max depth and regularized version, to shed light on the performance and fidelity to the teacher
 
-For more meaningful interpretation, I recommend collapsing the helper function cells in the jupyter notebook, as the codebase is long
+For interpretation, I recommend collapsing the helper function cells in the jupyter notebook and possibly cells that are not currently in view - as it is all based on one long notebook.
 
 *Note, installation of libaries are not thoroughly checked if one wants to rerun the entire codebase. Additional installs may be needed although I've tried to cover what's necessary. This is due to running it in a separate kernel with different library. For an exhaustive list, check the csv - although many of those are downloaded automatically from the finrl library, and some may not be used.
